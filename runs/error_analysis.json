@@ -1,0 +1,113 @@
+{
+  "dense": [
+    {
+      "window": 111,
+      "body_offset": 386486,
+      "nll": 2.5942928791046143,
+      "input_hex": "686f72726f722d73747275636b2076696c6c61676572732c206861642070757273756564206869730a6a6f75726e6579206163726f7373207468652073656120",
+      "preview": "horror-struck villagers, had pursued his\njourney across the sea "
+    },
+    {
+      "window": 145,
+      "body_offset": 388662,
+      "nll": 2.5547640323638916,
+      "input_hex": "6d2077697468696e2e204f6821205769746820776861742061206275726e696e6720677573682064696420686f70652072657669736974206d79206865617274",
+      "preview": "m within. Oh! With what a burning gush did hope revisit my heart"
+    },
+    {
+      "window": 80,
+      "body_offset": 384502,
+      "nll": 2.5542736053466797,
+      "input_hex": "6e20746865736520776f7264733a20e2809c507265706172652120596f757220746f696c730a6f6e6c7920626567696e3b207772617020796f757273656c6620",
+      "preview": "n these words: \u201cPrepare! Your toils\nonly begin; wrap yourself "
+    },
+    {
+      "window": 512,
+      "body_offset": 412150,
+      "nll": 2.55098295211792,
+      "input_hex": "6573206f66206d79206265696e6720697320776f756e6420746f206974730a636c6f736521204f682c204672616e6b656e737465696e212047656e65726f7573",
+      "preview": "es of my being is wound to its\nclose! Oh, Frankenstein! Generous"
+    },
+    {
+      "window": 504,
+      "body_offset": 411638,
+      "nll": 2.549377679824829,
+      "input_hex": "68206c6f617468736f6d652079657420617070616c6c696e6720686964656f75736e6573732e20492073687574206d79206579657320696e766f6c756e746172",
+      "preview": "h loathsome yet appalling hideousness. I shut my eyes involuntar"
+    }
+  ],
+  "unbalanced": [
+    {
+      "window": 111,
+      "body_offset": 386486,
+      "nll": 2.6372103691101074,
+      "input_hex": "686f72726f722d73747275636b2076696c6c61676572732c206861642070757273756564206869730a6a6f75726e6579206163726f7373207468652073656120",
+      "preview": "horror-struck villagers, had pursued his\njourney across the sea "
+    },
+    {
+      "window": 472,
+      "body_offset": 409590,
+      "nll": 2.577683925628662,
+      "input_hex": "68617374656e20746f2074686569722061726d732e204661726577656c6c2c0a57616c746f6e21205365656b2068617070696e65737320696e207472616e7175",
+      "preview": "hasten to their arms. Farewell,\nWalton! Seek happiness in tranqu"
+    },
+    {
+      "window": 438,
+      "body_offset": 407414,
+      "nll": 2.552337646484375,
+      "input_hex": "65626c6520766f6963652c20616e642062696464696e67206d6520636f6d65206e6561722c0a736169642c20e2809c416c6173212054686520737472656e6774",
+      "preview": "eble voice, and bidding me come near,\nsaid, \u201cAlas! The strengt"
+    },
+    {
+      "window": 199,
+      "body_offset": 392118,
+      "nll": 2.545337677001953,
+      "input_hex": "205f696e20636f6e74696e756174696f6e2e5f0a0a0a41756775737420323674682c203137e280942e0a0a0a596f752068617665207265616420746869732073",
+      "preview": " _in continuation._\n\n\nAugust 26th, 17\u2014.\n\n\nYou have read this s"
+    },
+    {
+      "window": 584,
+      "body_offset": 416758,
+      "nll": 2.536235809326172,
+      "input_hex": "6861730a6465677261646564206d652062656e6561746820746865206d65616e65737420616e696d616c2e204e6f206775696c742c206e6f206d697363686965",
+      "preview": "has\ndegraded me beneath the meanest animal. No guilt, no mischie"
+    }
+  ],
+  "balanced": [
+    {
+      "window": 111,
+      "body_offset": 386486,
+      "nll": 2.6322011947631836,
+      "input_hex": "686f72726f722d73747275636b2076696c6c61676572732c206861642070757273756564206869730a6a6f75726e6579206163726f7373207468652073656120",
+      "preview": "horror-struck villagers, had pursued his\njourney across the sea "
+    },
+    {
+      "window": 419,
+      "body_offset": 406198,
+      "nll": 2.5900375843048096,
+      "input_hex": "6f662074756d756c74756f7573206a6f792062726f6b652066726f6d207468656d2c0a6c6f756420616e64206c6f6e672d636f6e74696e7565642e204672616e",
+      "preview": "of tumultuous joy broke from them,\nloud and long-continued. Fran"
+    },
+    {
+      "window": 512,
+      "body_offset": 412150,
+      "nll": 2.5785651206970215,
+      "input_hex": "6573206f66206d79206265696e6720697320776f756e6420746f206974730a636c6f736521204f682c204672616e6b656e737465696e212047656e65726f7573",
+      "preview": "es of my being is wound to its\nclose! Oh, Frankenstein! Generous"
+    },
+    {
+      "window": 523,
+      "body_offset": 412854,
+      "nll": 2.5733132362365723,
+      "input_hex": "20616e6420696e636f686572656e742073656c662d726570726f61636865732e204174206c656e67746820490a6761746865726564207265736f6c7574696f6e",
+      "preview": " and incoherent self-reproaches. At length I\ngathered resolution"
+    },
+    {
+      "window": 145,
+      "body_offset": 388662,
+      "nll": 2.5626778602600098,
+      "input_hex": "6d2077697468696e2e204f6821205769746820776861742061206275726e696e6720677573682064696420686f70652072657669736974206d79206865617274",
+      "preview": "m within. Oh! With what a burning gush did hope revisit my heart"
+    }
+  ]
+}

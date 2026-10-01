@@ -1,0 +1,12 @@
+{
+  "name": "routeforge-moe",
+  "title": "RouteForge",
+  "description": "TensorFlow mixture-of-experts from scratch: sparse token dispatch, load-balancing ablation, routing diagnostics, trained checkpoints, and CPU benchmarks.",
+  "topics": ["ai-engineering", "llm-engineering", "mixture-of-experts", "tensorflow", "transformer", "sparse-routing", "load-balancing", "language-model", "benchmark"],
+  "owner": "SaudMonsour",
+  "date": "2026-10-01",
+  "algorithm_source": "https://jmlr.org/papers/v23/21-0998.html",
+  "corpus_source": "https://www.gutenberg.org/ebooks/84",
+  "corpus_redistributed": false,
+  "attribution": "Developed with an AI assistant for Saud Alotaibi. Training and measurements were actually executed; human review is not claimed."
+}

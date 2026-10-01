@@ -1,0 +1,10 @@
+{
+  "vocabulary": 256,
+  "context": 64,
+  "width": 64,
+  "heads": 4,
+  "layers": 2,
+  "hidden": 128,
+  "experts": 4,
+  "auxiliary_weight": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "Frankenstein; or, the Modern Prometheus",
+  "author": "Mary Wollstonecraft Shelley",
+  "source": "https://www.gutenberg.org/ebooks/84",
+  "download_url": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+  "source_sha256": "7810cd483cffcf2cc8a1d8f0d5807931e69d4f48cd14149b8c76f88af82fead3",
+  "body_sha256": "bde72e6909fb0caebf375b81f7a63140d2b6ffab49a473c670a498dee96934a8",
+  "source_bytes": 448885,
+  "body_bytes": 421536,
+  "fetched_at_utc": "2026-10-01T17:24:21.073229+00:00",
+  "last_modified": "Thu, 01 Oct 2026 07:51:14 GMT",
+  "split_offsets": [
+    0,
+    337228,
+    379382,
+    421536
+  ],
+  "transformation": "UTF-8 BOM decode, CRLF to LF, keep between single Gutenberg start/end markers, strip outer whitespace, append LF, encode UTF-8.",
+  "license": "Project Gutenberg identifies this work as public domain in the USA. Full corpus is referenced, not redistributed.",
+  "tokenization": "UTF-8 byte IDs 0..255; contiguous 80/10/10 split; no window crosses a split; recurring phrases retained."
+}

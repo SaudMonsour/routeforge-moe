@@ -1,0 +1,560 @@
+{
+  "verified_at_utc": "2026-10-01T17:41:07.048910+00:00",
+  "status": "passed",
+  "full_public_source_byte_match": true,
+  "source_bytes": 448885,
+  "body_bytes": 421536,
+  "replayed_scores": {
+    "dense": {
+      "validation": {
+        "nll": 2.123309653580732,
+        "byte_perplexity": 8.358756345920947,
+        "next_byte_accuracy": 0.3705594604863222,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.15661835799983287
+      },
+      "test": {
+        "nll": 2.1461724896199073,
+        "byte_perplexity": 8.552062565781402,
+        "next_byte_accuracy": 0.36711626139817627,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.1614728635782637
+      }
+    },
+    "unbalanced": {
+      "validation": {
+        "nll": 2.1372458987322984,
+        "byte_perplexity": 8.476061521796531,
+        "next_byte_accuracy": 0.3640292553191489,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.1521840827554313,
+        "routing": {
+          "counts": [
+            [
+              6000,
+              679,
+              1135,
+              34298
+            ],
+            [
+              8631,
+              16321,
+              12337,
+              4823
+            ]
+          ],
+          "fractions": [
+            [
+              0.14247720364741642,
+              0.016123670212765957,
+              0.026951937689969604,
+              0.814447188449848
+            ],
+            [
+              0.2049534574468085,
+              0.38756174012158057,
+              0.2929568768996961,
+              0.11452792553191489
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.14634785056114197,
+              0.055335938930511475,
+              0.05023663118481636,
+              0.7480794787406921
+            ],
+            [
+              0.23742426931858063,
+              0.35645952820777893,
+              0.2798663079738617,
+              0.12624983489513397
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.4548401173124922,
+            0.6841566100671299
+          ],
+          "max_over_mean_load": [
+            3.257788753799392,
+            1.5502469604863223
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      },
+      "test": {
+        "nll": 2.1548459468279204,
+        "byte_perplexity": 8.626561127493254,
+        "next_byte_accuracy": 0.35897131458966564,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.15714853635281098,
+        "routing": {
+          "counts": [
+            [
+              6101,
+              742,
+              1066,
+              34203
+            ],
+            [
+              8815,
+              16069,
+              12446,
+              4782
+            ]
+          ],
+          "fractions": [
+            [
+              0.1448755699088146,
+              0.01761968085106383,
+              0.025313449848024316,
+              0.8121912993920972
+            ],
+            [
+              0.20932275835866263,
+              0.38157769756838905,
+              0.29554521276595747,
+              0.11355433130699089
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.14835435152053833,
+              0.05600939691066742,
+              0.04836369678378105,
+              0.7472725510597229
+            ],
+            [
+              0.23969198763370514,
+              0.35134297609329224,
+              0.2827531397342682,
+              0.12621189653873444
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.4516403325422919,
+            0.6863962444490938
+          ],
+          "max_over_mean_load": [
+            3.248765197568389,
+            1.5263107902735562
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      }
+    },
+    "balanced": {
+      "validation": {
+        "nll": 2.0955068550573657,
+        "byte_perplexity": 8.129560434959284,
+        "next_byte_accuracy": 0.3763060410334346,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.1592877333787616,
+        "routing": {
+          "counts": [
+            [
+              11278,
+              9172,
+              11242,
+              10420
+            ],
+            [
+              8481,
+              10341,
+              12910,
+              10380
+            ]
+          ],
+          "fractions": [
+            [
+              0.26780965045592703,
+              0.2178001519756839,
+              0.26695478723404253,
+              0.24743541033434652
+            ],
+            [
+              0.2013915273556231,
+              0.24555946048632218,
+              0.3065634498480243,
+              0.24648556231003038
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.24078021943569183,
+              0.2433689385652542,
+              0.2629235088825226,
+              0.25292733311653137
+            ],
+            [
+              0.2153906524181366,
+              0.2230597734451294,
+              0.29039859771728516,
+              0.2711509168148041
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.6450416485589326,
+            0.7493135691776102
+          ],
+          "max_over_mean_load": [
+            1.0712386018237081,
+            1.2262537993920972
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      },
+      "test": {
+        "nll": 2.1190372966343145,
+        "byte_perplexity": 8.323120932989545,
+        "next_byte_accuracy": 0.3724354103343465,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.16376467063689504,
+        "routing": {
+          "counts": [
+            [
+              11260,
+              9167,
+              11087,
+              10598
+            ],
+            [
+              8700,
+              10346,
+              12717,
+              10349
+            ]
+          ],
+          "fractions": [
+            [
+              0.2673822188449848,
+              0.21768142097264437,
+              0.26327412613981765,
+              0.25166223404255317
+            ],
+            [
+              0.2065919452887538,
+              0.2456781914893617,
+              0.3019804331306991,
+              0.2457494300911854
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.24055029451847076,
+              0.24275319278240204,
+              0.2587922215461731,
+              0.2579043507575989
+            ],
+            [
+              0.21712377667427063,
+              0.2244265228509903,
+              0.28887930512428284,
+              0.26957038044929504
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.6444786790656464,
+            0.7498171704518396
+          ],
+          "max_over_mean_load": [
+            1.0695288753799392,
+            1.2079217325227964
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      }
+    }
+  },
+  "recreated_training_schedule": true,
+  "recreated_initial_weight_hashes": {
+    "dense": "93086712af27660e263d4a0a8b4af6d4af87af550fb3702575256a837c1ebac7",
+    "unbalanced": "1184260ec2b5b6b194d2985823cfa6500f75233e2c7d5f0d3dfed7b6f56ba444",
+    "balanced": "1184260ec2b5b6b194d2985823cfa6500f75233e2c7d5f0d3dfed7b6f56ba444"
+  },
+  "replayed_samples": true,
+  "replayed_category_routing_and_trace": true,
+  "replayed_benchmark_output_hashes": 36,
+  "benchmark_observations_checked": 720,
+  "timing_summaries_recomputed": true,
+  "timings_rerun": false,
+  "tests": {
+    "count": 10,
+    "status": "passed",
+    "command": "python -m unittest discover -s tests -v",
+    "scope": "Executed before training; verifies sparse/reference outputs and gradients plus routing and decoder behavior."
+  },
+  "readme_images": [
+    "figures/training-curves.png",
+    "figures/model-comparison.png",
+    "figures/expert-load.png",
+    "figures/latency.png",
+    "figures/route-trace.png",
+    "figures/category-routing.png"
+  ],
+  "files": {
+    ".gitignore": {
+      "bytes": 86,
+      "sha256": "0d250e38fce6332bad85492c40404018d2a90c8b8e560d7e0855e0aea83b5dc7",
+      "git_blob_sha1": "c3bfcd9fc11c80cdbf3b4a40ca82fbb6f661bb44"
+    },
+    "LICENSE": {
+      "bytes": 1070,
+      "sha256": "7a981bb0bfa73473bc1d4f8314ed6535509b312383be5529451ad276bbfbed17",
+      "git_blob_sha1": "9db7a20e30e2e47c7fad99bba96ac1907baf83f6"
+    },
+    "README.md": {
+      "bytes": 13236,
+      "sha256": "7815373a5fe1e5788ee50198f1e9b740f06be479fe200239fa994c55b828df5f",
+      "git_blob_sha1": "ef2e3dc8b717491a30c190c18f7b925b466b540a"
+    },
+    "USAGE.md": {
+      "bytes": 4614,
+      "sha256": "65fd7f1f90f454e161231d12eceb860cc8767aea4b66d8633760052a36597a2d",
+      "git_blob_sha1": "afe72e2654e9cd7c05cba4ef010fdfb12ca50741"
+    },
+    "artifacts.py": {
+      "bytes": 874,
+      "sha256": "66fde2d96e0f96e7904a850c15f59bca0c2c8ca4d74618703d63caf65b421a07",
+      "git_blob_sha1": "61b5f3aea8fcc9a19b496e0f349a1f2974f48f32"
+    },
+    "benchmark.py": {
+      "bytes": 4097,
+      "sha256": "593f85e08ac14c10c23c639c627680e2714e141faba0efc012c5dd6820deee4d",
+      "git_blob_sha1": "8a800348feca073ea0529e2273f602224b8da1dd"
+    },
+    "data/manifest.json": {
+      "bytes": 1028,
+      "sha256": "548a56d21ae21e7722b8c2935bffcd8a7964c1448bb8bac41cdedfa29a2eb10d",
+      "git_blob_sha1": "734e6fdd76d33e17d32e3317a3d5e3f2c78db204"
+    },
+    "diagnostics.py": {
+      "bytes": 2718,
+      "sha256": "2beb651910fdf07d85c5555ec388e8f630fafd757d86c052b29cb212e28fa40e",
+      "git_blob_sha1": "77c161c39b3f0300139cbe63e433032f9efc3916"
+    },
+    "environment.lock.txt": {
+      "bytes": 780,
+      "sha256": "2a475b082c52b4d99eaf8e1f1d0c4f881e100ac676c2dea864f33c7b5f586243",
+      "git_blob_sha1": "83f6f1d112dcaa51b719accdeaea667ae15eb046"
+    },
+    "figures/category-routing.png": {
+      "bytes": 176512,
+      "sha256": "7b67dfcbfe0019709b3385fb95ba701b2b234292dbd6400e386f1f7d6b038ce8",
+      "git_blob_sha1": "a50d17faeee9bee5d41e969638245763434d9ccd"
+    },
+    "figures/expert-load.png": {
+      "bytes": 65603,
+      "sha256": "6a7d7e17f4fa26c50868d0d2b184324191c2aabab8374f41d3ac1d8325927059",
+      "git_blob_sha1": "b12756ea7b9d028d3b5cbd6476d8039b210727fd"
+    },
+    "figures/latency.png": {
+      "bytes": 71149,
+      "sha256": "2ff8a250dd44b15a8b657c6034aba2c1780d0b69357a6c5f8063b437abc28220",
+      "git_blob_sha1": "a2237322fa55ae43e758e59379093819bf65d631"
+    },
+    "figures/model-comparison.png": {
+      "bytes": 47225,
+      "sha256": "acf5baf42d8c1b2fd4d20c239cd08122a865d45162fe87a78e151bc13f5adb9d",
+      "git_blob_sha1": "669a655bbf12e3e2a5716bc0efcf5b70d95f8562"
+    },
+    "figures/route-trace.png": {
+      "bytes": 50275,
+      "sha256": "884f67d4d6ed57ff4689e8af481305eae0b204bc07d69aebad4ac51f9a1edb85",
+      "git_blob_sha1": "18b748cb80d6b09a22c17382e8fd107b2506fb43"
+    },
+    "figures/training-curves.png": {
+      "bytes": 84848,
+      "sha256": "53c3a193028bad8ad94f2054f855107ab8b205f2486fbf0ee6aa79c296508060",
+      "git_blob_sha1": "9b2c8f96fe8d2b11fecd766ce89d72dd793d903b"
+    },
+    "generate.py": {
+      "bytes": 1864,
+      "sha256": "ff8d9eb64a53c736583a122db1ab6e67420de4453cf71bbe2a5e71d72668f468",
+      "git_blob_sha1": "d25323d66b38b4ebf7827e96c52d49233f77c40e"
+    },
+    "inspect_routes.py": {
+      "bytes": 1844,
+      "sha256": "4b7ce44817b21e87beda427093c047b4e4cd36524a353fac40e806507952a0ae",
+      "git_blob_sha1": "3e5aed4c25f0a6348883714a5725761d6489b051"
+    },
+    "plots.py": {
+      "bytes": 6236,
+      "sha256": "083a6f501a152641c6b10fd7eec6bbc198f2802188c1b99d6b897c2dd683ebdf",
+      "git_blob_sha1": "d6ca74c98478cbac6345b5e9d8fc687d6b2e853a"
+    },
+    "prepare.py": {
+      "bytes": 2961,
+      "sha256": "6552cc982f6678026a1cd9b6acb1f12f746d4194ec76bf96e2053f983461cdde",
+      "git_blob_sha1": "915355dc05b834ee831d942b6ba58bc3c48793c9"
+    },
+    "pyproject.toml": {
+      "bytes": 472,
+      "sha256": "7c955675e426428fa59759d927c00c3cc4a949f05bcc2d7797ead4c33065d6fe",
+      "git_blob_sha1": "f14aac58fb1bb12e030f9079cdab7127775c3455"
+    },
+    "repository.json": {
+      "bytes": 755,
+      "sha256": "90b69a0c712fefc623debf271f13403e841a250861854a7ec6b7ee74d859ab14",
+      "git_blob_sha1": "63fe3cce664b6261c747e8c12c4a6a6d8b5ad147"
+    },
+    "requirements.txt": {
+      "bytes": 55,
+      "sha256": "8664bc8941422c8d13899c09078dba7c0bc67d472d18fe248dcfed271f759f02",
+      "git_blob_sha1": "2fa43a1e3f7eca61fe0cb544fef94653802e0dce"
+    },
+    "routeforge/__init__.py": {
+      "bytes": 197,
+      "sha256": "fd70fa081d447f325c7cfddabcecedda2adb3c107998f692ffca69bf294bed84",
+      "git_blob_sha1": "54e0d3132d7535c9c45a39ea724db008ad95a649"
+    },
+    "routeforge/model.py": {
+      "bytes": 7489,
+      "sha256": "fe4dd3495a5867f874274175816027d289289834bc438f42596d23aafd4452ef",
+      "git_blob_sha1": "9f0d34399d77d7daa97c96f9e5b89dbc6fcd3c43"
+    },
+    "runs/balanced/config.json": {
+      "bytes": 146,
+      "sha256": "6c42f1c25b285b607c7a3e1e546175d2fa1c1d87a30614d4472ecfd6278a9e76",
+      "git_blob_sha1": "4748b4e993c94ec91ec7726a83d8af04ed9733e1"
+    },
+    "runs/balanced/model.weights.h5": {
+      "bytes": 1132712,
+      "sha256": "8fa91bddd5bec143eec2a1a02cf9d26c4bee90be18b22661e1c4099a29d9727a",
+      "git_blob_sha1": "977585f5e74fe2e36a9998f783bcc76ee5a8c424"
+    },
+    "runs/balanced/sample.bin": {
+      "bytes": 173,
+      "sha256": "992742a93813f5360126f8846145573a190605bcb3aafd86a631f3d79f8fd82a",
+      "git_blob_sha1": "35455227426077587c27dc58c2c4561178680f06"
+    },
+    "runs/balanced/sample.txt": {
+      "bytes": 174,
+      "sha256": "70dde81b2d690bd13c807af8e39841143f3f2a77a96c3565810a8870a129c384",
+      "git_blob_sha1": "ef4d700af31d1dcaea3c88fc248bf071644da30a"
+    },
+    "runs/balanced/test_window_losses.npy": {
+      "bytes": 5392,
+      "sha256": "135b7590df5d88f1a8aece956b6685908f7f739711955488ce973f36b2065a2d",
+      "git_blob_sha1": "06cdfbfd6b0403ba5fd9fa9005b2b4db8aace4b9"
+    },
+    "runs/benchmark.json": {
+      "bytes": 212754,
+      "sha256": "76fd0dd516570469c0ce5f1efe1d3f26708a5495eefecfb97e652c5e3ee6efcb",
+      "git_blob_sha1": "e3ccb0b10ea43473ac52331d458ce778d71fc3d6"
+    },
+    "runs/dense/config.json": {
+      "bytes": 145,
+      "sha256": "9aada2e65c26bc6ec78082f0afc8473ea2373e3684ee7dcc40763c59110f6215",
+      "git_blob_sha1": "95e09a2dfab793009ff16d01fbc0e749e4493018"
+    },
+    "runs/dense/model.weights.h5": {
+      "bytes": 475480,
+      "sha256": "2a7d3e9743856d8b275624a5412bf73d5a297fdcf1d4f2f4bdc62274ece018e7",
+      "git_blob_sha1": "d42627ae93fbe1e04078d97a0e4e4b07594cf188"
+    },
+    "runs/dense/sample.bin": {
+      "bytes": 173,
+      "sha256": "5046cf5cd218474fb8e55692c4df608c1d337e1b1c456dbe3003050348f2a6ae",
+      "git_blob_sha1": "d8519545da47265d5711511d88aad3508383b76e"
+    },
+    "runs/dense/sample.txt": {
+      "bytes": 174,
+      "sha256": "898cc463c6d46b338446eb7144a3181f85d9220b2b4469dcfa8cabfdec9daa69",
+      "git_blob_sha1": "72bdca913e665c4b8e501112602f7f1a7644a037"
+    },
+    "runs/dense/test_window_losses.npy": {
+      "bytes": 5392,
+      "sha256": "8a16bce81b2493d92a02dd3874e5eedc853c920994a722bd25e6ad30784727ea",
+      "git_blob_sha1": "c286a480afd56f7a0b97ede7c4b2b17d8eb9bd75"
+    },
+    "runs/error_analysis.json": {
+      "bytes": 5045,
+      "sha256": "c68dff3785ec550ef5cc0db4aa220dbc127b7bf2cb95e12024845a54e8355750",
+      "git_blob_sha1": "3f60eaa18ef6e69d8538b688cf62772205ad6589"
+    },
+    "runs/metrics.json": {
+      "bytes": 9668,
+      "sha256": "b978a442df7ca2113b95e04689b24db960fbd78819eb9c0ca24d320a29daf8a5",
+      "git_blob_sha1": "7f17a955c07316137028c6b7033e514891a6f4b1"
+    },
+    "runs/routing_diagnostics.json": {
+      "bytes": 20528,
+      "sha256": "e7e8a599399ed1f6cf95c55499a0eedd01aca5d32cd74e6a0fe6bb65130e13ce",
+      "git_blob_sha1": "fb15648997579a033018fd00c280c7beb75fb3ce"
+    },
+    "runs/training_history.csv": {
+      "bytes": 1804,
+      "sha256": "5b36c6ef043d8b63a969e19729c673a76339aba44432f6f97942c17d7f77d867",
+      "git_blob_sha1": "f9994e2d39841c9ffb9f907944d2423f3cfa2325"
+    },
+    "runs/training_starts.npy": {
+      "bytes": 76928,
+      "sha256": "d0c3e2e0137f072d32a3c8b01ccb9536a1cfeb1b776ca883b2f59be2960bc7d6",
+      "git_blob_sha1": "791a037836093d887bc7ca05dcc24dfc701630b7"
+    },
+    "runs/unbalanced/config.json": {
+      "bytes": 145,
+      "sha256": "eeff6bcc25aac5207a2f74647aa12a87689b4567c2f45752a41d9276938e58f9",
+      "git_blob_sha1": "44b8a987ac66f76c689d35b4f4686b4e2e8a170d"
+    },
+    "runs/unbalanced/model.weights.h5": {
+      "bytes": 1132712,
+      "sha256": "badeeb32e33319642d31be32d6e146b282dbccdeb98edd87ec779941f65f9411",
+      "git_blob_sha1": "2af5f556832ec1ad6a2fa445071f60dcc4be9f93"
+    },
+    "runs/unbalanced/sample.bin": {
+      "bytes": 173,
+      "sha256": "785cb36d0d2ed1e97daadf320f94ad91ec530b5461e66359fdcf23079414c475",
+      "git_blob_sha1": "a217a4347ba3478842e2228ffc44ada4e9d938b7"
+    },
+    "runs/unbalanced/sample.txt": {
+      "bytes": 174,
+      "sha256": "ff1390fd95f0905a570f6515c6e2bd26083b9118031e98f05d5e8a08b2d2045f",
+      "git_blob_sha1": "d41627dbe1543cd530776afeed15438f4cf3d987"
+    },
+    "runs/unbalanced/test_window_losses.npy": {
+      "bytes": 5392,
+      "sha256": "9a6d170e8db60e219415ec07e6d0ba3ef275a72570f6682818dac0a889669748",
+      "git_blob_sha1": "6b544f5bb7a0d9a68fc3d058354e70a4aec47646"
+    },
+    "study.py": {
+      "bytes": 9680,
+      "sha256": "df0ab0b6c5802bc3798059bf9d57af4abc239a1a01a0cb1990ecb40e64c20e14",
+      "git_blob_sha1": "a54c4f24af945e3065a6dd3e3b4bf1b894bac1b1"
+    },
+    "tests/test_routing.py": {
+      "bytes": 5877,
+      "sha256": "75e200ce003727ee2b7c75fecad25478819520e910cbf66c393b0096c7e0c486",
+      "git_blob_sha1": "e2ba0652ee5db293e4f203bc5c2d67d55115821e"
+    },
+    "verify.py": {
+      "bytes": 9773,
+      "sha256": "48f5b04d066e3038af1337b9d62d06d316c11b78a195c7777fc6b2e680920070",
+      "git_blob_sha1": "363be70af29ce3c7064bfad38f54635ff2c1bbba"
+    }
+  },
+  "scope": "Replays source, initialization, evaluation, routing, generation and summaries. Does not retrain or claim identical wall-clock latency. Hashes exclude this audit itself, the full downloaded corpus and Python caches."
+}

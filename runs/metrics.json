@@ -1,0 +1,329 @@
+{
+  "started_at_utc": "2026-10-01T17:28:09.828912+00:00",
+  "completed_at_utc": "2026-10-01T17:29:13.689005+00:00",
+  "seed": 42,
+  "steps": 600,
+  "batch": 16,
+  "sampled_byte_targets_per_model": 614400,
+  "source_sha256": "7810cd483cffcf2cc8a1d8f0d5807931e69d4f48cd14149b8c76f88af82fead3",
+  "body_sha256": "bde72e6909fb0caebf375b81f7a63140d2b6ffab49a473c670a498dee96934a8",
+  "models": {
+    "dense": {
+      "parameters": 103040,
+      "nominal_active_parameters_per_token": 103040,
+      "active_parameter_note": "All shared weights plus one expert per layer; embeddings counted in full. This is not measured FLOPs or resident memory.",
+      "selected_step": 600,
+      "initial_weights_sha256": "93086712af27660e263d4a0a8b4af6d4af87af550fb3702575256a837c1ebac7",
+      "validation": {
+        "nll": 2.123309653580732,
+        "byte_perplexity": 8.358756345920947,
+        "next_byte_accuracy": 0.3705594604863222,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.15661835799983287
+      },
+      "training_seconds_with_validation_and_checkpoint_saving": 15.49547355499999,
+      "test": {
+        "nll": 2.1461724896199073,
+        "byte_perplexity": 8.552062565781402,
+        "next_byte_accuracy": 0.36711626139817627,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.1614728635782637
+      }
+    },
+    "unbalanced": {
+      "parameters": 251008,
+      "nominal_active_parameters_per_token": 103552,
+      "active_parameter_note": "All shared weights plus one expert per layer; embeddings counted in full. This is not measured FLOPs or resident memory.",
+      "selected_step": 600,
+      "initial_weights_sha256": "1184260ec2b5b6b194d2985823cfa6500f75233e2c7d5f0d3dfed7b6f56ba444",
+      "validation": {
+        "nll": 2.1372458987322984,
+        "byte_perplexity": 8.476061521796531,
+        "next_byte_accuracy": 0.3640292553191489,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.1521840827554313,
+        "routing": {
+          "counts": [
+            [
+              6000,
+              679,
+              1135,
+              34298
+            ],
+            [
+              8631,
+              16321,
+              12337,
+              4823
+            ]
+          ],
+          "fractions": [
+            [
+              0.14247720364741642,
+              0.016123670212765957,
+              0.026951937689969604,
+              0.814447188449848
+            ],
+            [
+              0.2049534574468085,
+              0.38756174012158057,
+              0.2929568768996961,
+              0.11452792553191489
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.14634785056114197,
+              0.055335938930511475,
+              0.05023663118481636,
+              0.7480794787406921
+            ],
+            [
+              0.23742426931858063,
+              0.35645952820777893,
+              0.2798663079738617,
+              0.12624983489513397
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.4548401173124922,
+            0.6841566100671299
+          ],
+          "max_over_mean_load": [
+            3.257788753799392,
+            1.5502469604863223
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      },
+      "training_seconds_with_validation_and_checkpoint_saving": 19.47631864599998,
+      "test": {
+        "nll": 2.1548459468279204,
+        "byte_perplexity": 8.626561127493254,
+        "next_byte_accuracy": 0.35897131458966564,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.15714853635281098,
+        "routing": {
+          "counts": [
+            [
+              6101,
+              742,
+              1066,
+              34203
+            ],
+            [
+              8815,
+              16069,
+              12446,
+              4782
+            ]
+          ],
+          "fractions": [
+            [
+              0.1448755699088146,
+              0.01761968085106383,
+              0.025313449848024316,
+              0.8121912993920972
+            ],
+            [
+              0.20932275835866263,
+              0.38157769756838905,
+              0.29554521276595747,
+              0.11355433130699089
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.14835435152053833,
+              0.05600939691066742,
+              0.04836369678378105,
+              0.7472725510597229
+            ],
+            [
+              0.23969198763370514,
+              0.35134297609329224,
+              0.2827531397342682,
+              0.12621189653873444
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.4516403325422919,
+            0.6863962444490938
+          ],
+          "max_over_mean_load": [
+            3.248765197568389,
+            1.5263107902735562
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      }
+    },
+    "balanced": {
+      "parameters": 251008,
+      "nominal_active_parameters_per_token": 103552,
+      "active_parameter_note": "All shared weights plus one expert per layer; embeddings counted in full. This is not measured FLOPs or resident memory.",
+      "selected_step": 600,
+      "initial_weights_sha256": "1184260ec2b5b6b194d2985823cfa6500f75233e2c7d5f0d3dfed7b6f56ba444",
+      "validation": {
+        "nll": 2.0955068550573657,
+        "byte_perplexity": 8.129560434959284,
+        "next_byte_accuracy": 0.3763060410334346,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.1592877333787616,
+        "routing": {
+          "counts": [
+            [
+              11278,
+              9172,
+              11242,
+              10420
+            ],
+            [
+              8481,
+              10341,
+              12910,
+              10380
+            ]
+          ],
+          "fractions": [
+            [
+              0.26780965045592703,
+              0.2178001519756839,
+              0.26695478723404253,
+              0.24743541033434652
+            ],
+            [
+              0.2013915273556231,
+              0.24555946048632218,
+              0.3065634498480243,
+              0.24648556231003038
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.24078021943569183,
+              0.2433689385652542,
+              0.2629235088825226,
+              0.25292733311653137
+            ],
+            [
+              0.2153906524181366,
+              0.2230597734451294,
+              0.29039859771728516,
+              0.2711509168148041
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.6450416485589326,
+            0.7493135691776102
+          ],
+          "max_over_mean_load": [
+            1.0712386018237081,
+            1.2262537993920972
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      },
+      "training_seconds_with_validation_and_checkpoint_saving": 22.639538879000042,
+      "test": {
+        "nll": 2.1190372966343145,
+        "byte_perplexity": 8.323120932989545,
+        "next_byte_accuracy": 0.3724354103343465,
+        "windows": 658,
+        "evaluated_bytes": 42112,
+        "window_nll_sd": 0.16376467063689504,
+        "routing": {
+          "counts": [
+            [
+              11260,
+              9167,
+              11087,
+              10598
+            ],
+            [
+              8700,
+              10346,
+              12717,
+              10349
+            ]
+          ],
+          "fractions": [
+            [
+              0.2673822188449848,
+              0.21768142097264437,
+              0.26327412613981765,
+              0.25166223404255317
+            ],
+            [
+              0.2065919452887538,
+              0.2456781914893617,
+              0.3019804331306991,
+              0.2457494300911854
+            ]
+          ],
+          "mean_probability": [
+            [
+              0.24055029451847076,
+              0.24275319278240204,
+              0.2587922215461731,
+              0.2579043507575989
+            ],
+            [
+              0.21712377667427063,
+              0.2244265228509903,
+              0.28887930512428284,
+              0.26957038044929504
+            ]
+          ],
+          "mean_router_entropy_nats": [
+            0.6444786790656464,
+            0.7498171704518396
+          ],
+          "max_over_mean_load": [
+            1.0695288753799392,
+            1.2079217325227964
+          ],
+          "unused_experts": [
+            0,
+            0
+          ],
+          "dropped_tokens": 0
+        }
+      }
+    }
+  },
+  "unigram": {
+    "test_nll": 3.0656594659334506,
+    "test_byte_perplexity": 21.448601946562324
+  },
+  "controls": "Identical seed, sampled windows/order, optimizer, learning rate, batch and steps. Sparse variants start with identical weights. Dense has fewer total parameters; one expert has the same width/hidden size as its dense FFN. No seed search, pretrained weights, distillation or test-driven selection.",
+  "selection": "Independent minimum validation NLL checkpoint for each fixed architecture; test evaluated only after all selections.",
+  "runtime": {
+    "python": "3.12.14",
+    "tensorflow": "2.20.0",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "intra_threads": 2,
+    "inter_threads": 2,
+    "oneDNN": false,
+    "devices": [
+      "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+    ]
+  }
+}

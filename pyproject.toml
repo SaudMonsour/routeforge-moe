@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "routeforge-moe"
+version = "0.1.0"
+description = "Inspectable TensorFlow sparse token routing and expert diagnostics"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+dependencies = ["tensorflow-cpu==2.20.0", "numpy==2.5.3"]
+
+[project.optional-dependencies]
+study = ["matplotlib==3.10.6"]
+
+[tool.setuptools.packages.find]
+include = ["routeforge*"]
